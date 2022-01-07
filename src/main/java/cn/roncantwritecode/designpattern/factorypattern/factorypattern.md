@@ -30,5 +30,42 @@
 
 FactoryPatternDemo，我们的演示类使用 ShapeFactory 来获取 Shape 对象。它将向 ShapeFactory 传递信息（CIRCLE / RECTANGLE / SQUARE），以便获取它所需对象的类型。
 
-![](https://github.com/RonCantWriteCode/DesignPattern/blob/master/src/main/resources/image/factorypattern.png)
+![](https://github.com/RonCantWriteCode/DesignPattern/blob/main/src/main/resources/image/factorypattern.jpg)
 
+#### 步骤 1
+
+创建一个接口。
+
+Shape.java
+
+#### 步骤 2
+
+创建实现接口的实体类。
+
+Rectangle.java
+
+Square.java
+
+Circle.java
+
+#### 步骤 3
+
+创建一个工厂，生成基于给定信息的实体类的对象。
+
+ShapeFactory.java
+
+#### 步骤 4
+
+使用该工厂，通过传递类型信息来获取实体类的对象。
+
+FactoryPatternDemo.java
+
+#### 步骤 5
+
+验证输出。
+
+```
+Inside Circle::draw() method.
+Inside Rectangle::draw() method.
+Inside Square::draw() method.
+```
