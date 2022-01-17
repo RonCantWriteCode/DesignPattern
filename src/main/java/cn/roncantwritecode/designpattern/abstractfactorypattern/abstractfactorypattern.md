@@ -30,7 +30,7 @@
 
 AbstractFactoryPatternDemo，我们的演示类使用 FactoryProducer 来获取 AbstractFactory 对象。它将向 AbstractFactory 传递形状信息 Shape（CIRCLE / RECTANGLE / SQUARE），以便获取它所需对象的类型。同时它还向 AbstractFactory 传递颜色信息 Color（RED / GREEN / BLUE），以便获取它所需对象的类型。
 
-![](https://github.com/RonCantWriteCode/DesignPattern/blob/main/src/main/resources/image/abstractfactorypattern.png)
+![](https://github.com/RonCantWriteCode/DesignPattern/blob/main/src/main/resources/image/abstractfactorypattern.jpg)
 
 #### 步骤 1
 
