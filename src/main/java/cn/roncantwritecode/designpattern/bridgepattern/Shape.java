@@ -1,0 +1,12 @@
+package cn.roncantwritecode.designpattern.bridgepattern;
+
+/**
+ * @author Ron Wu
+ */
+public abstract class Shape {
+    protected DrawAPI drawAPI;
+    protected Shape(DrawAPI drawAPI){
+        this.drawAPI = drawAPI;
+    }
+    public abstract void draw();
+}
