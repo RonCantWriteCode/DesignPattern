@@ -1,7 +1,7 @@
 package cn.roncantwritecode.designpattern.compositepattern;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  */
 public class CompositePatternDemo {
     public static void main(String[] args) {

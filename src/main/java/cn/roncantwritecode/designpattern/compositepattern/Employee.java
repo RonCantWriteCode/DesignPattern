@@ -3,6 +3,9 @@ package cn.roncantwritecode.designpattern.compositepattern;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Ron Wu
+ */
 public class Employee {
     private String name;
     private String dept;
