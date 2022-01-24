@@ -1,7 +1,7 @@
 package cn.roncantwritecode.designpattern.nullobjectpattern;
 
 /**
- * @author wurunlong
+ * @author Ron Wu
  */
 public class CustomerFactory {
 
