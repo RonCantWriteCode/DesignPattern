@@ -5,11 +5,11 @@ package cn.roncantwritecode.designpattern.nullobjectpattern;
  */
 public class CustomerFactory {
 
-    public static final String[] names = {"Rob", "Joe", "Julie"};
+    public static final String[] NAMES = {"Rob", "Joe", "Julie"};
 
     public static AbstractCustomer getCustomer(String name){
-        for (int i = 0; i < names.length; i++) {
-            if (names[i].equalsIgnoreCase(name)){
+        for (int i = 0; i < NAMES.length; i++) {
+            if (NAMES[i].equalsIgnoreCase(name)){
                 return new RealCustomer(name);
             }
         }

@@ -4,7 +4,7 @@ package cn.roncantwritecode.designpattern.flyweightpattern;
  * @author Ron Wu
  */
 public class FlyweightPatternDemo {
-    private static final String colors[] =
+    private static final String COLORS[] =
             { "Red", "Green", "Blue", "White", "Black" };
     public static void main(String[] args) {
 
@@ -18,7 +18,7 @@ public class FlyweightPatternDemo {
         }
     }
     private static String getRandomColor() {
-        return colors[(int)(Math.random()*colors.length)];
+        return COLORS[(int)(Math.random()* COLORS.length)];
     }
     private static int getRandomX() {
         return (int)(Math.random()*100 );

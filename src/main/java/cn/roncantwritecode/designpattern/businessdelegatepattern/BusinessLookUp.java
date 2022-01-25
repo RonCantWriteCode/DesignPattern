@@ -5,7 +5,7 @@ package cn.roncantwritecode.designpattern.businessdelegatepattern;
  */
 public class BusinessLookUp {
     public BusinessService getBusinessService(String serviceType){
-        if(serviceType.equalsIgnoreCase("EJB")){
+        if("EJB".equalsIgnoreCase(serviceType)){
             return new EJBService();
         }else {
             return new JMSService();

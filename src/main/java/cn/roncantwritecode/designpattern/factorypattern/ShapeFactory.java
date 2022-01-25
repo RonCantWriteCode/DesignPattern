@@ -10,11 +10,11 @@ public class ShapeFactory {
         if(shapeType == null){
             return null;
         }
-        if(shapeType.equalsIgnoreCase("CIRCLE")){
+        if("CIRCLE".equalsIgnoreCase(shapeType)){
             return new Circle();
-        } else if(shapeType.equalsIgnoreCase("RECTANGLE")){
+        } else if("RECTANGLE".equalsIgnoreCase(shapeType)){
             return new Rectangle();
-        } else if(shapeType.equalsIgnoreCase("SQUARE")){
+        } else if("SQUARE".equalsIgnoreCase(shapeType)){
             return new Square();
         }
         return null;
